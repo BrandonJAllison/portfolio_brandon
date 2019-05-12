@@ -25,7 +25,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={'Brandon Allison'}/>
+        
         <div
           style={{
             margin: `0 auto`,
