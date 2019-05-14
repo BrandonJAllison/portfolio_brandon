@@ -4,7 +4,10 @@ import {graphql} from 'gatsby'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Hero from "../components/hero"
+
+import image from '../images/hero.jpg'
+
+
 
 
  
@@ -13,11 +16,14 @@ import Hero from "../components/hero"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Page Under Construction, Please Check Back Soon!</h1>
-   
-  <div>
-   
-  </div>
+
+    <img src={image} className="hero-image"/>
+    <div class="hero-text">
+    <h1>Brandon Allison</h1>
+    <p>HTML | CSS | JS | React | Node.js</p>
+    <p>Website Coming Soon</p>
+    </div>
+
 
     
     {/* <Link to="/page-2/">Go to page 2</Link> */}
@@ -25,18 +31,5 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-export const pageQuery = graphql`
-  query indexQuery {
-   
-    hero: allImageSharp(filter:{original:{src:{regex:"/golden-gate/"}}}) {
-      edges {
-        node {
-          id
-          fluid(quality: 100) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  }
-`
+
+
