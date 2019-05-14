@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'gatsby-image'
 import styled from 'styled-components'
+import heroImg from "../images/pier-407252_1280.jpg"
 
 const Container = styled.div`
   display: flex;
