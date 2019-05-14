@@ -6,7 +6,6 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#85144B`,
-      marginBottom: `1.45rem`,
     }}
   >
     <div
@@ -16,7 +15,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.2rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -26,7 +25,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+      </h3>
       <h4 style={{color: `white`}}>Full-Stack Developer | React | Node </h4>
     </div>
   </header>
