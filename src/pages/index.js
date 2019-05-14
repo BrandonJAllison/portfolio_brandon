@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import {graphql} from 'gatsby'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
+
 
  
 
@@ -22,3 +25,18 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+export const pageQuery = graphql`
+  query indexQuery {
+   
+    hero: allImageSharp(filter:{original:{src:{regex:"/golden-gate/"}}}) {
+      edges {
+        node {
+          id
+          fluid(quality: 100) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  }
+`
