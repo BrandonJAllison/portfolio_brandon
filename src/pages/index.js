@@ -12,11 +12,11 @@ import "./index.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-   
+   <Header/>
     <div class="hero-text">
     <h1>Brandon Allison</h1>
     <p>Full Stack Developer</p>
-    <div className="logos"> <i class="fab fa-html5 fa-2x"></i> <i class="fab fa-css3-alt fa-2x"></i> <i class="fab fa-js fa-2x"> </i>  <i class="fab fa-react fa-2x "></i> <i class="fab fa-node fa-2x"></i></div>
+    <div><i class="fab fa-html5 fa-2x"></i> <i class="fab fa-css3-alt fa-2x"></i> <i class="fab fa-js fa-2x"> </i>  <i class="fab fa-react fa-2x "></i> <i class="fab fa-node fa-2x"></i></div>
    
     
     </div>
