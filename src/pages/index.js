@@ -13,7 +13,7 @@ import "./index.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Header/>
+   
     <div class="hero-text">
     <h1>Brandon Allison</h1>
     <p>Full Stack Developer</p>

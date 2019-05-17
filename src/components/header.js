@@ -1,13 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import $ from 'jquery'; 
 
-$(document).ready(function(){
-	$('#nav-icon1').click(function(){
-		$(this).toggleClass('open');
-	});
-});
 
 const Header = ({ siteTitle }) => (
   <header
