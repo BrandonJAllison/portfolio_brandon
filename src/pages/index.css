@@ -1,0 +1,39 @@
+i {
+    margin: 0 15px;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  p {
+      font-weight: bold;
+  }
+
+  .fa-html5:hover {
+      color: #E44D26
+  }
+  .fa-css3-alt:hover {
+    color: #1A70B5
+}
+.fa-js:hover {
+    color: #F0D91D;  
+}
+
+.fa-react:hover {
+    color: #00D8FF;  
+}
+
+.fa-node:hover {
+    color: #659B60;  
+}
+

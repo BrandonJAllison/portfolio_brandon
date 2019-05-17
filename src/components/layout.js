@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
         
           
           
-          <main>{children}</main>
+        <main>{children}</main>
           
           
         
