@@ -2,19 +2,6 @@ i {
     margin: 0 15px;
 }
 
-@keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
   p {
       font-weight: bold;
   }
