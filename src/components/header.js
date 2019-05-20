@@ -4,22 +4,22 @@ import React from "react"
 
 
 const Header = ({ siteTitle }) => (
+  
   <header
     style={{
       background: `black`,
     }}
   >
   
-
     <div
       style={{
         maxWidth: 960,
-        padding: `1.2rem 1.0875rem`,
       }}
     >
-      
+      <p style={{color: "white", padding: ".5rem"}}>About | Projects | Contact</p>
       
     </div>
+    
   
   </header>
 )
