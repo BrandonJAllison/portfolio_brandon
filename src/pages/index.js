@@ -5,18 +5,20 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Header from "../components/header"
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode } from 'react-icons/fa'
 import "./index.css"
 
 
 
 const IndexPage = () => (
+ 
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
    <Header/>
     <div class="hero-text">
     <h1>Brandon Allison</h1>
     <p>Full Stack Developer</p>
-    <div><i class="fab fa-html5 fa-2x"></i> <i class="fab fa-css3-alt fa-2x"></i> <i class="fab fa-js fa-2x"> </i>  <i class="fab fa-react fa-2x "></i> <i class="fab fa-node fa-2x"></i></div>
+    <div className="iconDiv"><FaHtml5 className="html5"/><FaCss3Alt className="css3"/><FaJs className="js"/><FaReact className="react"/><FaNode className="node"/> </div>
    
     
     </div>

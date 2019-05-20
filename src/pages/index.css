@@ -6,21 +6,35 @@ i {
       font-weight: bold;
   }
 
-  .fa-html5:hover {
-      color: #E44D26
+
+  .html5 {
+      color: #E44D26;
+      margin: 0 10px; 
   }
-  .fa-css3-alt:hover {
-    color: #1A70B5
+  .css3 {
+    color: #1A70B5;
+    margin: 0 10px; 
 }
-.fa-js:hover {
+.js {
     color: #F0D91D;  
+    margin: 0 10px; 
+    background: black;
 }
 
-.fa-react:hover {
-    color: #00D8FF;  
+.react {
+    color: #00D8FF; 
+    margin: 0 10px; 
+    
 }
 
-.fa-node:hover {
+.node {
     color: #659B60;  
+    margin: 0 10px;
+    
+}
+
+.iconDiv {
+
+    font-size : 2rem;
 }
 
