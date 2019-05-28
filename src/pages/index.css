@@ -6,10 +6,13 @@ i {
       font-weight: bold;
   }
 
+  
+
 
   .html5 {
       color: #E44D26;
       margin: 0 10px; 
+      
   }
   .css3 {
     color: #1A70B5;
@@ -34,7 +37,7 @@ i {
 }
 
 .iconDiv {
-
     font-size : 2rem;
 }
+
 
