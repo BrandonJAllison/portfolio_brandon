@@ -2,42 +2,40 @@ i {
     margin: 0 15px;
 }
 
-  p {
-      font-weight: bold;
-  }
-
-  
-
-
-  .html5 {
-      color: #E44D26;
-      margin: 0 10px; 
-      
-  }
-  .css3 {
-    color: #1A70B5;
-    margin: 0 10px; 
+p {
+    font-weight: bold;
 }
+
+
+.html5 {
+    color: #E44D26;
+    margin: 0 10px;
+
+}
+
+.css3 {
+    color: #1A70B5;
+    margin: 0 10px;
+}
+
 .js {
-    color: #F0D91D;  
-    margin: 0 10px; 
+    color: #F0D91D;
+    margin: 0 10px;
     background: black;
 }
 
 .react {
-    color: #00D8FF; 
-    margin: 0 10px; 
-    
+    color: #00D8FF;
+    margin: 0 10px;
+
 }
 
 .node {
-    color: #659B60;  
+    color: #659B60;
     margin: 0 10px;
-    
+
 }
 
 .iconDiv {
-    font-size : 2rem;
+    font-size: 2rem;
 }
-
-
