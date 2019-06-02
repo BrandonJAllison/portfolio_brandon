@@ -15,11 +15,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
    <Header/>
+   <div>
     <div class="hero-text">
     <h1>Brandon Allison</h1>
     <p>Full Stack Developer</p>
     <div className="iconDiv"><FaHtml5 className="html5"/><FaCss3Alt className="css3"/><FaJs className="js"/><FaReact className="react"/><FaNode className="node"/> </div>
-   
+    </div>
     
     </div>
     
