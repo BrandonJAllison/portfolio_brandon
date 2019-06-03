@@ -1,8 +1,7 @@
-
 import React, { useState } from 'react'
 import { useSprings, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
-import './otherStyle.css'
+import "./other.css"
 
 const cards = [
   'https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png',
