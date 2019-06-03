@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import {FaGithub, FaTwitter} from 'react-icons/fa'
+import {FaGithub, FaTwitter, FaEllipsisH} from 'react-icons/fa'
 import "./components.css"
 
 
@@ -25,9 +25,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       
-      <Link to='/about' style={{color: "white", padding: ".5rem", textDecoration: "none"}}>About</Link>
-      <Link to='page-2'style={{color: "white", padding: ".5rem", textDecoration: "none"}}>Stack</Link>
-      <Link to='/contact' style={{color: "white", padding: ".5rem", textDecoration: "none"}}>Contact</Link>
+      <FaEllipsisH className="ellipsis"/>
       <Link ><FaGithub className="github"/></Link>
       <a href="http://www.twitter.com" ><FaTwitter className="twitter"/></a>
       
