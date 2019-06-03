@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import {FaGithub, FaTwitter} from 'react-icons/fa'
-import Thing from './thing'
 import "./components.css"
 
 
@@ -26,9 +25,9 @@ const Header = ({ siteTitle }) => (
       }}
     >
       
-      <Link style={{color: "white", padding: ".5rem", textDecoration: "none"}}>About</Link>
-      <Link style={{color: "white", padding: ".5rem", textDecoration: "none"}}>Projects</Link>
-      <Link style={{color: "white", padding: ".5rem", textDecoration: "none"}}>Contact</Link>
+      <Link to='/about' style={{color: "white", padding: ".5rem", textDecoration: "none"}}>About</Link>
+      <Link to='page-2'style={{color: "white", padding: ".5rem", textDecoration: "none"}}>Stack</Link>
+      <Link to='/contact' style={{color: "white", padding: ".5rem", textDecoration: "none"}}>Contact</Link>
       <Link ><FaGithub className="github"/></Link>
       <a href="http://www.twitter.com" ><FaTwitter className="twitter"/></a>
       
