@@ -7,27 +7,30 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode } from 'react-icons/fa'
 import "./index.css"
+import Thing from '../components/thing'
+import Card from '../components/otherThing'
 
 
 
 const IndexPage = () => (
- 
+
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-   <Header/>
-   <div>
-    <div class="hero-text">
-    <h1>Brandon Allison</h1>
-    <p>Full Stack Developer</p>
-    <div className="iconDiv"><FaHtml5 className="html5"/><FaCss3Alt className="css3"/><FaJs className="js"/><FaReact className="react"/><FaNode className="node"/> </div>
-    </div>
     
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+   
+   
+     
+    <div class="hero-text">
+    
+    <div className="iconDiv">ENTER</div>
+    <Card></Card>
     </div>
     
 
 
     
     {/* <Link to="/page-2/">Go to page 2</Link> */}
+    
   </Layout>
 )
 
