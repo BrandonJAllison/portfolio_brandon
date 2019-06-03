@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { useSprings, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
 
-import './otherstyle.css'
+import './otherStyle.css'
 
 const cards = [
   'https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png',
@@ -37,7 +37,9 @@ function Deck() {
   })
   // Now we're just mapping the animated values to our view, that's it. Btw, this component only renders once. :-)
   return props.map(({ x, y, rot, scale }, i) => (
+    
     <animated.div className="deck" key={i} style={{ transform: interpolate([x, y], (x, y) => `translate3d(${x}px,${y}px,0)`) }}>
+      
       {/* This is the card itself, we're binding our gesture to it (and inject its index so we know which is which) */}
       <animated.div className='belowDeck' {...bind(i)} style={{ transform: interpolate([rot, scale], trans), backgroundImage: `url(${cards[i]})` }} />
     </animated.div>
