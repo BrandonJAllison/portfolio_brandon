@@ -23,7 +23,8 @@
     "react-icons": "^3.7.0",
     "react-router-dom": "^5.0.0",
     "react-spring": "^8.0.20",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "react-use-gesture":"^5.0.2"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
